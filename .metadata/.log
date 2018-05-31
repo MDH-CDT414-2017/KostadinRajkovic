@@ -1,0 +1,222 @@
+!SESSION 2018-03-17 15:00:24.905 -----------------------------------------------
+eclipse.buildId=4.7.1.M20170906-1700
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data C:\Knjige\VerificationAndValidation\Lab2 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-17 15:01:24.550
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kostadin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-03-17 15:06:37.325 -----------------------------------------------
+eclipse.buildId=4.7.1.M20170906-1700
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/C:/Knjige/VerificationAndValidation/Lab2/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-17 15:06:54.246
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kostadin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-03-19 06:03:52.615 -----------------------------------------------
+eclipse.buildId=4.7.1.M20170906-1700
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-19 06:05:30.915
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kostadin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-03-19 07:26:49.302
+!MESSAGE An internal error occurred during: "Update validate job".
+!STACK 0
+java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:989)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:564)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:1016)
+	at org.eclipse.equinox.internal.p2.core.helpers.ServiceHelper.getService(ServiceHelper.java:27)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getSharedPreferences(AbstractRepositoryManager.java:512)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.restoreRepositories(AbstractRepositoryManager.java:1016)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getRepositoryProperty(AbstractRepositoryManager.java:564)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:234)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.loadMetadataRepository(ProvisioningContext.java:216)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedMetadataRepositories(ProvisioningContext.java:199)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getMetadata(ProvisioningContext.java:280)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.updatesFor(SimplePlanner.java:784)
+	at org.eclipse.equinox.p2.operations.UpdateOperation.updatesFor(UpdateOperation.java:142)
+	at org.eclipse.equinox.p2.operations.UpdateOperation.computeProfileChangeRequest(UpdateOperation.java:179)
+	at org.eclipse.equinox.p2.operations.UpdateOperation$1.run(UpdateOperation.java:323)
+	at org.eclipse.equinox.internal.p2.operations.SearchForUpdatesResolutionJob.runModal(SearchForUpdatesResolutionJob.java:37)
+	at org.eclipse.equinox.p2.operations.ProfileChangeOperation.resolveModal(ProfileChangeOperation.java:115)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater.updatesAvailable(AutomaticUpdater.java:117)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater.updatesAvailable(AutomaticUpdater.java:98)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater$6.run(AutomaticUpdater.java:359)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2018-03-19 07:26:50.877 -----------------------------------------------
+eclipse.buildId=4.7.1.M20170906-1700
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data file:/C:/Knjige/VerificationAndValidation/Lab2/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-19 07:27:22.741
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kostadin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.pitest.pitclipse.core 1 0 2018-03-19 07:27:38.453
+!MESSAGE Classpath: [C:\Knjige\VerificationAndValidation\Lab2\BowlingGame\BowlingGame\bin, C:\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar, C:\eclipse\plugins\org.pitest.command-line-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.html-report-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.pitrunner_1.1.6.201607050705.jar, C:\eclipse\plugins\org.pitest.guava-shade-osgi_18.0.0.jar]
+
+!ENTRY org.pitest.pitclipse.core 1 0 2018-03-19 07:28:32.744
+!MESSAGE Classpath: [C:\Knjige\VerificationAndValidation\Lab2\BowlingGame\BowlingGame\bin, C:\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar, C:\eclipse\plugins\org.pitest.command-line-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.html-report-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.pitrunner_1.1.6.201607050705.jar, C:\eclipse\plugins\org.pitest.guava-shade-osgi_18.0.0.jar]
+
+!ENTRY org.pitest.pitclipse.core 1 0 2018-03-19 07:30:53.055
+!MESSAGE Classpath: [C:\Knjige\VerificationAndValidation\Lab2\BowlingGame\BowlingGame\bin, C:\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar, C:\eclipse\plugins\org.pitest.command-line-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.html-report-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.pitrunner_1.1.6.201607050705.jar, C:\eclipse\plugins\org.pitest.guava-shade-osgi_18.0.0.jar]
+!SESSION 2018-03-21 13:11:15.835 -----------------------------------------------
+eclipse.buildId=4.7.1.M20170906-1700
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-21 13:12:01.680
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kostadin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.pitest.pitclipse.core 1 0 2018-03-21 13:12:17.894
+!MESSAGE Classpath: [C:\Knjige\VerificationAndValidation\Lab2\BowlingGame\BowlingGame\bin, C:\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar, C:\eclipse\plugins\org.pitest.command-line-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.html-report-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.pitrunner_1.1.6.201607050705.jar, C:\eclipse\plugins\org.pitest.guava-shade-osgi_18.0.0.jar]
+
+!ENTRY org.pitest.pitclipse.core 1 0 2018-03-21 13:15:22.619
+!MESSAGE Classpath: [C:\Knjige\VerificationAndValidation\Lab2\BowlingGame\BowlingGame\bin, C:\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar, C:\eclipse\plugins\org.pitest.command-line-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.html-report-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.pitrunner_1.1.6.201607050705.jar, C:\eclipse\plugins\org.pitest.guava-shade-osgi_18.0.0.jar]
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-21 13:27:39.932
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-21 13:27:39.945
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.pitest.pitclipse.core 1 0 2018-03-21 13:27:57.298
+!MESSAGE Classpath: [C:\Knjige\VerificationAndValidation\Lab2\BowlingGame\BowlingGame\bin, C:\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar, C:\eclipse\plugins\org.pitest.command-line-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.html-report-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.pitrunner_1.1.6.201607050705.jar, C:\eclipse\plugins\org.pitest.guava-shade-osgi_18.0.0.jar]
+
+!ENTRY org.pitest.pitclipse.core 1 0 2018-03-21 13:30:36.661
+!MESSAGE Classpath: [C:\Knjige\VerificationAndValidation\Lab2\BowlingGame\BowlingGame\bin, C:\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar, C:\eclipse\plugins\org.pitest.command-line-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.html-report-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.pitrunner_1.1.6.201607050705.jar, C:\eclipse\plugins\org.pitest.guava-shade-osgi_18.0.0.jar]
+
+!ENTRY org.pitest.pitclipse.core 1 0 2018-03-21 13:31:03.845
+!MESSAGE Classpath: [C:\Knjige\VerificationAndValidation\Lab2\BowlingGame\BowlingGame\bin, C:\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar, C:\eclipse\plugins\org.pitest.command-line-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.html-report-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.pitrunner_1.1.6.201607050705.jar, C:\eclipse\plugins\org.pitest.guava-shade-osgi_18.0.0.jar]
+
+!ENTRY org.pitest.pitclipse.core 1 0 2018-03-21 13:31:31.527
+!MESSAGE Classpath: [C:\Knjige\VerificationAndValidation\Lab2\BowlingGame\BowlingGame\bin, C:\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar, C:\eclipse\plugins\org.pitest.command-line-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.html-report-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.pitrunner_1.1.6.201607050705.jar, C:\eclipse\plugins\org.pitest.guava-shade-osgi_18.0.0.jar]
+
+!ENTRY org.pitest.pitclipse.core 1 0 2018-03-21 13:32:23.899
+!MESSAGE Classpath: [C:\Knjige\VerificationAndValidation\Lab2\BowlingGame\BowlingGame\bin, C:\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar, C:\eclipse\plugins\org.pitest.command-line-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.html-report-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.pitrunner_1.1.6.201607050705.jar, C:\eclipse\plugins\org.pitest.guava-shade-osgi_18.0.0.jar]
+
+!ENTRY org.pitest.pitclipse.core 1 0 2018-03-21 13:33:23.990
+!MESSAGE Classpath: [C:\Knjige\VerificationAndValidation\Lab2\BowlingGame\BowlingGame\bin, C:\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar, C:\eclipse\plugins\org.pitest.command-line-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.html-report-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.pitrunner_1.1.6.201607050705.jar, C:\eclipse\plugins\org.pitest.guava-shade-osgi_18.0.0.jar]
+
+!ENTRY org.pitest.pitclipse.core 1 0 2018-03-21 13:35:10.725
+!MESSAGE Classpath: [C:\Knjige\VerificationAndValidation\Lab2\BowlingGame\BowlingGame\bin, C:\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar, C:\eclipse\plugins\org.pitest.command-line-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.html-report-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.pitrunner_1.1.6.201607050705.jar, C:\eclipse\plugins\org.pitest.guava-shade-osgi_18.0.0.jar]
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-03-21 13:37:29.970
+!MESSAGE No repository found at http://pitest.org.
+
+!ENTRY org.pitest.pitclipse.core 1 0 2018-03-21 13:44:31.114
+!MESSAGE Classpath: [C:\Knjige\VerificationAndValidation\Lab2\BowlingGame\BowlingGame\bin, C:\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar, C:\eclipse\plugins\org.pitest.command-line-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.html-report-osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.osgi_1.1.9.jar, C:\eclipse\plugins\org.pitest.pitrunner_1.1.6.201607050705.jar, C:\eclipse\plugins\org.pitest.guava-shade-osgi_18.0.0.jar]
+!SESSION 2018-03-23 15:05:13.435 -----------------------------------------------
+eclipse.buildId=4.7.1.M20170906-1700
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-23 15:11:30.705
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kostadin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-05-26 14:10:26.622 -----------------------------------------------
+eclipse.buildId=4.7.1.M20170906-1700
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data C:\Knjige\VerificationAndValidation\Lab2 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-05-26 14:10:41.227
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: dev.eclipse.org. ; version: 2.0.6.v20170906-1226
+!STACK 0
+java.net.UnknownHostException: dev.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:170)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:64)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-05-26 14:10:41.500
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kostadin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-05-26 14:41:17.789
+!MESSAGE No repository found at http://pitest.org.
+!SESSION 2018-05-31 11:44:35.867 -----------------------------------------------
+eclipse.buildId=4.7.1.M20170906-1700
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-05-31 11:48:06.679
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kostadin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

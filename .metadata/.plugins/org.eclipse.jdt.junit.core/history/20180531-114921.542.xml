@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BowlingGameTest" project="BowlingGame" tests="22" started="22" failures="0" errors="0" ignored="0">
+  <testsuite name="BowlingGameTest" time="0.003">
+    <testcase name="test000" classname="BowlingGameTest" time="0.001"/>
+    <testcase name="test001" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test002" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test003" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test004" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test005" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test006" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test007" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test008" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test00" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test01" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test02" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test03" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test04" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test05" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test06" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test07" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test08" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test09" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test10" classname="BowlingGameTest" time="0.001"/>
+    <testcase name="test11" classname="BowlingGameTest" time="0.0"/>
+    <testcase name="test12" classname="BowlingGameTest" time="0.0"/>
+  </testsuite>
+</testrun>

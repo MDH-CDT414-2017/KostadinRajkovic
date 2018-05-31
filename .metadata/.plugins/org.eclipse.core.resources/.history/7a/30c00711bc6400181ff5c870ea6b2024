@@ -17,42 +17,7 @@ public class BowlingGameTest extends TestCase {
 	 *  If no game is provided, score should be -1 (error)   
 	 */	     
 
-    public void test000() {
-    	BowlingGame bowlingGame = new BowlingGame("111");
-        assertEquals(-1, bowlingGame.getScore());
-    }
-	public void test001() {
-        BowlingGame bowlingGame = new BowlingGame("[10,,4][3,6]");
-        assertEquals(-1, bowlingGame.getScore());
-    }
-	public void test002() {
-        BowlingGame bowlingGame = new BowlingGame("[10,4[3,6]");
-        assertEquals(-1, bowlingGame.getScore());
-    }
-	public void test003() {
-        BowlingGame bowlingGame = new BowlingGame("10,4][3,6]");
-        assertEquals(-1, bowlingGame.getScore());
-    }
-	public void test004() {
-        BowlingGame bowlingGame = new BowlingGame("[11,4][3,6]");
-        assertEquals(-1, bowlingGame.getScore());
-    }
-	public void test005() {
-        BowlingGame bowlingGame = new BowlingGame("[10,4,][3,6]");
-        assertEquals(-1, bowlingGame.getScore());
-    }
-	public void test006() {
-        BowlingGame bowlingGame = new BowlingGame("[10,4][3");
-        assertEquals(-1, bowlingGame.getScore());
-    }
-	public void test007() {
-        BowlingGame bowlingGame = new BowlingGame("[10,4][3,3");
-        assertEquals(-1, bowlingGame.getScore());
-    }
-	public void test008() {
-        BowlingGame bowlingGame = new BowlingGame("[10,0][10,0]");
-        assertEquals(30, bowlingGame.getScore());
-    }
+
 	public void test00() {
         BowlingGame bowlingGame = new BowlingGame("[[10,4][3,6]");
         assertEquals(-1, bowlingGame.getScore());
